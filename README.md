@@ -49,3 +49,20 @@
 
 ### Scope Statement
     Project Scope:
+        The Network Error Detector will provide real-time network issue detection for stakeholders, including 
+        Data Centers, IT Teams, and Cloud Providers. The system will primarily function as a Discord bot that notifies 
+        users about network errors.
+
+    Included Features:
+        1. Automated Discord notifications
+        2. Real-time network error detection
+    
+    Excluded Features:
+        1. Automated issue resolution
+        2. Advanced analytics
+    
+    Users and Functionalities:
+        Stakeholders (Data Centers, IT Teams, Cloud Providers)
+            1. Receive real-time Discord notifications on network errors.
+            2. Access network status through Discord bot
+
