@@ -132,6 +132,6 @@
         * Marco Perez
 
     Communitcation Methods:
-        * Weekly Progress Meetings via In-Person
-        * Project Status Updates via Slack
-        * Development Updates via Email
+        * Weekly progress meetings via in-person
+        * Project status updates via slack
+        * Development updates via Email
