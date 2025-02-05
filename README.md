@@ -63,8 +63,8 @@
     
     Users and Functionalities:
         Stakeholders (Data Centers, IT Teams, Cloud Providers)
-            1. Receive real-time Discord notifications on network errors.
-            2. Access network status through Discord bot
+            * Receive real-time Discord notifications on network errors.
+            * Access network status through Discord bot
 
 ### Work Breakdown Structure
     System Design – Alan Gonzalez (Project Manager)
@@ -87,3 +87,9 @@
     Deployment & Training – Alan Gonzalez (Project Manager)
         * Deploy the Discord bot
         * Write documentation on how to use the system
+
+### Timeline & Milestones
+    Week 1: Gathering Requirements and planning
+    Week 2: Develop prototype
+    Week 3: Testing and refining
+    Week 4: Documentation
