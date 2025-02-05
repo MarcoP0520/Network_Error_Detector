@@ -2,7 +2,7 @@ import discord
 import asyncio
 
 TOKEN = "Bot_token"  # Replace with your actual bot token
-CHANNEL_ID = 1336488379960786996  # Replace with your Discord channel ID
+CHANNEL_ID = 1336488379960786996  # Replace with  Discord channel ID
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
