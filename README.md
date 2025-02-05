@@ -125,3 +125,13 @@
 
         3. Problem: Undetected errors
            Solution: Continuously refine detection logic, and test with real network scenarios
+
+### Communication Plan
+    Key Decision Makers: 
+        * Alan Goznalez
+        * Marco Perez
+
+    Communitcation Methods:
+        * Weekly Progress Meetings via In-Person
+        * Project Status Updates via Slack
+        * Development Updates via Email
