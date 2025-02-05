@@ -14,7 +14,6 @@
 ### Project Objectives:
     Primary Goal:
 
-        To Create a Network Error Detector
         To develop a reliable network error detection system that identifies problems quickly, ensuring rapid responses 
         and maintaining network reliability.
 
