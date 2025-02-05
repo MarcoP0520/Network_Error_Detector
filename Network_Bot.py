@@ -1,8 +1,8 @@
 import discord
 import asyncio
 
-TOKEN = "Bot_token"  # Replace with your actual bot token
-CHANNEL_ID = 123  # Replace with your Discord channel ID
+ # Replace with your actual bot token
+# Replace with your Discord channel ID
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
