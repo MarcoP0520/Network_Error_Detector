@@ -2,10 +2,8 @@
 
 ## Project Overview:
 ## Project Manager: Alan Gonzalez
-![IMG_4526.jpeg](..%2F..%2FDownloads%2FIMG_4526.jpeg)
 
 ## Network System Engineer: Marco Perez
-![IMG_5031_Original.jpg](..%2F..%2FDownloads%2FIMG_5031_Original.jpg)
 Stakeholders: Data Centers, IT Teams, and Cloud Providers
 
 ### Project Statement:
