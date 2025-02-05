@@ -66,3 +66,24 @@
             1. Receive real-time Discord notifications on network errors.
             2. Access network status through Discord bot
 
+### Work Breakdown Structure
+    System Design – Alan Gonzalez (Project Manager)
+        * Define project goals, objectives, and success criteria
+        * Gather stakeholder requirements
+        * Outline workflows
+        * Create a project timeline and assign responsibilities
+    
+    Software Development - Marco Perez (Network System Engineer)
+        * Set up development environment
+        * Implement network error detection logic
+        * Build the Discord bot to send automated alerts.
+        * Add configurations
+
+    Testing & Quality Assurance:
+        * Run test cases for error detection accuracy
+        * Check if the Discord bot sends correct notifications.
+        * Fix any bugs or performance issues.
+
+    Deployment & Training – Alan Gonzalez (Project Manager)
+        * Deploy the Discord bot
+        * Write documentation on how to use the system
