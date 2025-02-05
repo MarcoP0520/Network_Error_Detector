@@ -8,14 +8,14 @@
     Stakeholders: Data Centers, IT Teams, and Cloud Providers
 
 ### Project Statement
-    Building reliable network infrastructures is challenging and errors can occur throughout the process. Without an 
+        Building reliable network infrastructures is challenging and errors can occur throughout the process. Without an 
     effective monitoring system, Stakeholders may struggle to detect issues promptly, leading to downtime and 
     inefficiencies. This project aims to develop a network error detector that quickly identifies problems, enabling 
     rapid and efficient responses to maintain network reliability.
 
 ### Project Objectives
     Primary Goal:
-        To develop a reliable network error detection system that identifies problems quickly, ensuring rapid responses 
+            To develop a reliable network error detection system that identifies problems quickly, ensuring rapid responses 
         and maintaining network reliability.
     
     Key Objectives:
@@ -49,7 +49,7 @@
 
 ### Scope Statement
     Project Scope:
-        The Network Error Detector will provide real-time network issue detection for stakeholders, including 
+            The Network Error Detector will provide real-time network issue detection for stakeholders, including 
         Data Centers, IT Teams, and Cloud Providers. The system will primarily function as a Discord bot that notifies 
         users about network errors.
 
