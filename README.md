@@ -13,7 +13,6 @@
 
 ### Project Objectives:
     Primary Goal:
-
         To develop a reliable network error detection system that identifies problems quickly, ensuring rapid responses 
         and maintaining network reliability.
     
@@ -23,7 +22,7 @@
         3. Ensure ease of use and accessibility for Stakeholders
 
 ### Success Criteria:
-    Project will be successful if: 
+    Project will be successful if:
         1. Discord Bot correctly distributes network status updates
         2. The system consistently detects and reports network errors in real-time
         3. Stakeholders can easily access and interpret network status
