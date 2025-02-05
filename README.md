@@ -19,7 +19,11 @@
     
     Key Objectives:
         1. Provide Stakeholders with real-time updates
-        2. Implement a notification system to alert Stakeholders of detected issues on connection status using discord
-        3. Ensure easy use and accesablity to Stakeholders
+        2. Implement a notification system to alert Stakeholders of detected issues on connection status via discord
+        3. Ensure ease of use and accessibility for Stakeholders
 
 ### Success Criteria:
+    Project will be successful if: 
+        1. Discord Bot correctly distributes network status updates
+        2. The system consistently detects and reports network errors in real-time
+        3. Stakeholders can easily access and interpret network status
