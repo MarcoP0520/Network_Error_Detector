@@ -2,7 +2,7 @@ import discord
 import asyncio
 import os
 
-TOKEN = "Bot token"  # Replace with your actual bot token
+TOKEN = "Bot Token"  # Replace with your actual bot token
 CHANNEL_ID = 1336488379960786996  # Replace with your Discord channel ID
 
 intents = discord.Intents.default()
@@ -30,6 +30,11 @@ async def tail_log():
                             await channel.send(f"🚨 ALERT: {alert}")
                         elif "Connected" in alert:
                             await channel.send(f"✅ {alert}")  # Use check mark for connected status
+                        elif "FAILURE!" in alert:
+                            await channel.send(f"🚨 {alert} 🚨")
+                        elif "online!" in alert:
+                            await channel.send(f"✅ {alert} ✅")
+
 
                         print(f"✅ Sent alert: {alert}")
                     else:
