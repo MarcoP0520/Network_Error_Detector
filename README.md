@@ -1,9 +1,9 @@
 # Network Error Detector
 
-## Project Overview:
-## Project Manager: Alan Gonzalez
+### Project Overview:
+### Project Manager: Alan Gonzalez
 
-## Network System Engineer: Marco Perez
+### Network System Engineer: Marco Perez
 Stakeholders: Data Centers, IT Teams, and Cloud Providers
 
 ### Project Statement:
