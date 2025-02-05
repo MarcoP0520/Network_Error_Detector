@@ -17,7 +17,7 @@ bool Pingip(const std::string& ipAddress) {
 }
 
 int main() {
-//7
+
    std::vector<std::string> ipAddress_list{
        "10.0.0.1",
        "10.0.0.163",
