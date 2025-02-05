@@ -94,14 +94,23 @@
     Week 3: Testing and refining
     Week 4: Documentation
 
-### Responsibilities
-    Alan Gonzalez:
-        * Project planning and management
-        * Gathering requirements
-        * Writing documentation
-        * Testing and debugging
+### Resource Allocation
+    Team:
+        Alan Gonzalez:
+            * Project planning and management
+            * Gathering requirements
+            * Writing documentation
+            * Testing and debugging
     
-    Marco Perez:
-        * Coding and development
-        * Setting up hosting/server
-        * Testing and debugging
+        Marco Perez:
+            * Coding and development
+            * Setting up hosting/server
+            * Testing and debugging
+    
+    Technical Resources:
+        * Programming Language (Python and C++)
+        * Discord API
+        * Ping Tools
+        * GitHub
+        * Task Management Tools
+        * Testing Environment
