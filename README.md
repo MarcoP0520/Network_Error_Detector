@@ -24,3 +24,5 @@
         1. Provide Stakeholders with real-time updates
         2. Implement a notification system to alert Stakeholders of detected issues on connection status using discord
         3. Ensure easy use and accesablity to Stakeholders
+
+### Success Criteria:
