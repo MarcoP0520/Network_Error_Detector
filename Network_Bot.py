@@ -1,45 +1,42 @@
 import discord
 import asyncio
+import os
 
-TOKEN = "Bot_token"  # Replace with your actual bot token
-CHANNEL_ID = 1336488379960786996  # Replace with  Discord channel ID
+TOKEN = "bot token"  # Replace with your actual bot token
+CHANNEL_ID = 1336488379960786996  # Replace with your Discord channel ID
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
 
-async def check_status():
-    last_alert = None
-    while True:
-        try:
-            print("📂 Checking if status.log exists...")
+async def tail_log():
+    """ Continuously read new lines from status.log and send alerts """
+    await asyncio.sleep(5)  # Small delay to ensure bot is ready
 
-            with open("status.log", "r") as file:
-                lines = file.readlines()
+    try:
+        with open("status.log", "r") as file:
+            file.seek(0, os.SEEK_END)  # Move to the end of the file
 
-            if lines:
-                last_status = lines[-1].strip()
-                print(f"📜 Last line in status.log: {last_status}")
+            while True:
+                line = file.readline()
+                if not line:  # No new line found, wait and check again
+                    await asyncio.sleep(0.1)
+                    continue
 
-                if "Disconnected" in last_status and last_status != last_alert:
-                    last_alert = last_status
+                alert = line.strip()
+                if alert:
                     channel = client.get_channel(CHANNEL_ID)
-
-                    print(f"🚨 ALERT: Preparing to send: {last_status}")
-
                     if channel:
-                        await channel.send(f"🚨 ALERT: {last_status}")
-                        print(f"✅ Message sent: {last_status}")
+                        await channel.send(f"🚨 ALERT: {alert}")
+                        print(f"✅ Sent alert: {alert}")
                     else:
                         print("❌ ERROR: Channel not found!")
 
-            await asyncio.sleep(30)  # Check every 30 seconds
-
-        except Exception as e:
-            print(f"❌ ERROR reading file: {e}")
+    except Exception as e:
+        print(f"❌ ERROR reading file: {e}")
 
 @client.event
 async def on_ready():
     print(f"✅ Logged in as {client.user}")
-    client.loop.create_task(check_status())
+    client.loop.create_task(tail_log())  # Start file monitoring task
 
 client.run(TOKEN)
