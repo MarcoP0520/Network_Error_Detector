@@ -1,10 +1,9 @@
 # Network Error Detector
 
 ### Project Overview:
-### Project Manager: Alan Gonzalez
-![IMG_4526.jpeg](..%2F..%2FDownloads%2FIMG_4526.jpeg)
-### Network System Engineer: Marco Perez
-Stakeholders: Data Centers, IT Teams, and Cloud Providers
+    Project Manager: Alan Gonzalez
+    Network System Engineer: Marco Perez
+    Stakeholders: Data Centers, IT Teams, and Cloud Providers
 
 ### Project Statement:
     Building reliable network infrastructures is challenging and errors can occur throughout the process. Without an 
@@ -27,3 +26,10 @@ Stakeholders: Data Centers, IT Teams, and Cloud Providers
         1. Discord Bot correctly distributes network status updates
         2. The system consistently detects and reports network errors in real-time
         3. Stakeholders can easily access and interpret network status
+
+### Key Questions to Answer:
+    1. How will the Discord bot format and send notifications?
+    2. How frequently should the system check for network issues?
+    3. What specific network errors will the system detect?
+
+### Constraints and Assumptions
