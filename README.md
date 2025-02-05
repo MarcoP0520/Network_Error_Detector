@@ -5,6 +5,8 @@
     Network System Engineer: Marco Perez
     Stakeholders: Data Centers, IT Teams, and Cloud Providers
 
+## Initiation:
+
 ### Project Statement
     Building reliable network infrastructures is challenging and errors can occur throughout the process. Without an 
     effective monitoring system, Stakeholders may struggle to detect issues promptly, leading to downtime and 
@@ -42,3 +44,8 @@
         1. Stakeholders have access to smartphones or computer
         2. Discord bot functions as expected
         3. Users understand basic network terminology
+
+## Planning:
+
+### Scope Statement
+    Project Scope:
