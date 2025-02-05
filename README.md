@@ -33,3 +33,12 @@
     3. What specific network errors will the system detect?
 
 ### Constraints and Assumptions
+    Constraints:
+        1. Limited Development time
+        2. Platform Restriction
+        3. Real-time Update Frequency
+    
+    Assumptions:
+        1. Stakeholders have access to smartphones or computer
+        2. Discord bot functions as expected
+        3. Users understand basic network terminology
