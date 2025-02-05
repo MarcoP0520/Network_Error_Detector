@@ -1,11 +1,11 @@
 # Network Error Detector
 
+## Initiation:
+
 ### Project Overview
     Project Manager: Alan Gonzalez
     Network System Engineer: Marco Perez
     Stakeholders: Data Centers, IT Teams, and Cloud Providers
-
-## Initiation:
 
 ### Project Statement
     Building reliable network infrastructures is challenging and errors can occur throughout the process. Without an 
