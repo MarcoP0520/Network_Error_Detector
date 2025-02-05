@@ -38,7 +38,7 @@ int main() {
     std::vector<std::string> ipAddress_list{
         "10.0.0.1",
         "10.0.0.163",
-        "google.com"
+          "google.com"
     };
     std::vector<std::string> devices{
         "Router_1",
@@ -68,6 +68,9 @@ int main() {
 
                     std::cout << device + " " + ip + " Disconnected " << std::endl;
                     log << device << " " << ip << " Disconnected " << std::endl;
+                    if(ipAddress_list.size() == disconnected_ip.size()) {
+                        log << " TOTAL NETWORK FAILURE! "<< std::endl;
+                    }
                 }
             } else { // Device is Connected
                 // Check if already logged in `connected_ip`
@@ -77,6 +80,9 @@ int main() {
 
                     std::cout << device + " " + ip + " Connected" << std::endl;
                     log << device << " " << ip << " Connected" << std::endl;
+                    if(connected_ip.size()== ipAddress_list.size()) {
+                        log << "All devices back online!" << std::endl;
+                    }
                 }
             }
         }
